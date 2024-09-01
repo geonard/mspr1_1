@@ -1,0 +1,21 @@
+.billeterie-banner {
+    width: 100%;
+    background-color: rgb(189, 179, 179); /* Couleur de fond pour la visibilité */
+    color: red; /* Couleur du texte */
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 20px; /* Ajustez l'espacement autour du texte */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    display: flex; /* Utiliser Flexbox pour le centrage */
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+    height: 70px; /* Hauteur fixe pour centrer verticalement (ajustez si nécessaire) */
+  }
+  
+  .billeterie-title {
+    font-size: 36px; /* Ajustez la taille du texte selon vos besoins */
+    font-family: 'Arial', sans-serif; /* Spécifiez la police que vous souhaitez */
+    margin: 0; /* Supprime les marges par défaut pour un centrage plus précis */
+  }
+  .billeterie-title:hover {
+    text-decoration: underline; /* Soulignement au survol */
+  }

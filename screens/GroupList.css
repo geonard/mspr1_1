@@ -1,0 +1,65 @@
+.group-list {
+  width: 100%;
+  max-height: 500px; /* Ajustez la hauteur selon vos besoins */
+  overflow-y: auto; /* Permet le défilement vertical */
+  border: 1px solid #ddd; /* Optionnel : bordure pour délimiter la zone de liste */
+  padding: 10px; /* Optionnel : ajout de padding */
+}
+
+.header-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr; /* Ajustez les proportions des colonnes */
+  background-color: #f4f4f4; /* Couleur de fond pour l'en-tête */
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc; /* Bordure pour séparer les en-têtes */
+}
+
+.header-col {
+  padding: 5px;
+  text-align: center; /* Centrer le texte dans les colonnes d'en-tête */
+}
+
+.group-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr; /* Assurez-vous que les colonnes correspondent à l'en-tête */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Bordure pour séparer les lignes */
+}
+
+.group-col {
+  padding: 5px;
+  text-align: center; /* Centrer le texte dans les colonnes */
+}
+
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-image {
+  max-width: 100px; /* Limiter la taille de l'image */
+  height: auto;
+}
+
+.link-col a {
+  text-decoration: none;
+  color: #007bff; /* Couleur du lien */
+}
+
+.details-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer les éléments dans la colonne des détails */
+}
+
+.details-item {
+  margin: 5px 0; /* Espacement entre les éléments */
+}

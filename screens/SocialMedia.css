@@ -1,0 +1,33 @@
+/* SocialMedia.css */
+.social-media {
+  position: fixed;
+  top: 100px; /* Position verticale à 100px du haut */
+  left: 200px; /* Position horizontale à 200px de la gauche */
+  width: auto; /* Ajustez la largeur si nécessaire */
+  background-color: gray;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000; /* Assurez-vous que le composant est au-dessus des autres éléments */
+}
+
+.social-media h2 {
+  margin-bottom: 10px;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media li {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: blue;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}

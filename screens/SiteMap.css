@@ -1,0 +1,51 @@
+
+.map-container {
+  height: 100vh; /* Assure que la carte occupe toute la hauteur de la fenêtre */
+}
+
+.custom-marker {
+  background-size: contain; /* Ajuste la taille de l'image à la taille de l'élément */
+  width: 50px; /* Largeur du marqueur */
+  height: 50px; /* Hauteur du marqueur */
+  background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
+
+.custom-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.map-container {
+  position: relative;
+  height: 400px; /* Hauteur par défaut */
+  width: 100%;
+}
+
+.full-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000; /* Assurez-vous que la carte est au-dessus des autres éléments */
+}
+
+.fullscreen-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1100; /* S'assurer que le bouton est au-dessus de la carte */
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
