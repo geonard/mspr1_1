@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mspr",
   "version": "1.0.0",
   "scripts": {
@@ -12,5 +13,16 @@
     "expo": "^48.0.0",
     "react": "^18.0.0",
     "react-native": "0.72.0"
+=======
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+>>>>>>> 2763192e813940292d3ad55d23ee11bb48da5c73
   }
 }
